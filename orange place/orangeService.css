@@ -1,0 +1,126 @@
+.head {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.head h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+.head .head-paragraph {
+    font-size: 10px;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p,
+h1,
+li {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+ul a:hover {
+    background-color: rgb(112, 73, 1);
+    padding: 10px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+footer {
+    background-color: orange;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.service-container {
+    background-color: rgb(39, 31, 31);
+    height: 200px;
+    width: 470px;
+}
+
+.service-container h3 {
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.service-container img {
+    width: 200px;
+    height: 100%;
+}
+
+.Image {
+    float: left;
+    margin-right: 10px;
+}
+
+.price {
+    float: left;
+    margin: 20px 10px 0px 80px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.order {
+    margin-right: 20px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.orange-contact {
+    background-image: url("image/orange-background.jpg");
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.orange-contact p,
+address {
+    text-align: center;
+    color: black;
+}
+
+.orange-contact .contact-paragraph {
+    font-size: 50px;
+    margin-top: -2px;
+}

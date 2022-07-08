@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(98, 63, 63, 0.704);
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: rgb(150, 147, 147, 0.5);
+    color: black;
+}
+
+nav {
+    background-color: rgb(19, 19, 19, 0.8);
+    padding: 10px;
+    overflow: auto;
+    position: sticky;
+}
+
+@media screen and (max-width:500px) {
+    a {
+        display: block;
+    }
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.holder {
+    display: flex;
+}
+
+.PizzaImage {
+    opacity: 0.5;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.left-Container,
+.right-Container {
+    width: 96%;
+    margin: 2%;
+    overflow: hidden;
+}
+
+.rightImage {
+    float: right;
+    opacity: 0.5;
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: rgb(19, 19, 19, 0.8);
+    margin-top: 0;
+}
+
+address {
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.form-Container {
+    margin: 2%;
+}
+
+.inputClass {
+    display: block;
+}
+
+input[type="text"],
+[type="password"],
+[type="email"] {
+    padding: 10px;
+    width: 450px;
+}
+
+.first-Inpur {
+    margin-right: 10px;
+}
+
+.input-Container {
+    display: inline-block;
+}
+
+@media screen and (max-width:613px) {
+    .container {
+        height: 1000px;
+    }
+}
+
+.first-form-control {
+    border: 1px solid rgba(76, 3, 3, 0.409);
+    overflow: hidden;
+}
+
+textarea {
+    margin-left: 100px;
+}
+
+@media screen and (max-width:954px) {
+    textarea {
+        width: 40%;
+        margin-left: 20px;
+    }
+    .container {
+        height: auto;
+    }
+}

@@ -1,0 +1,143 @@
+body {
+    max-width: 960px;
+    margin: auto;
+}
+
+.head_container {
+    display: flex;
+}
+
+h1 {
+    font-style: italic;
+}
+
+.head_container img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+nav {
+    background-color: rgb(116, 52, 7);
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    padding: 7px;
+}
+
+.right li {
+    color: white;
+}
+
+.bigger_Image {
+    width: 70%;
+}
+
+.smaller_Image {
+    width: 30%;
+}
+
+.Image_container {
+    display: flex;
+}
+
+.containt {
+    display: flex;
+}
+
+.left_containt {
+    width: 80%;
+    margin-right: 5px;
+}
+
+.right_containt {
+    width: 30%;
+}
+
+.left_containt p {
+    column-count: 2;
+    column-gap: 10px;
+}
+
+.third_containt h3 {
+    color: rgb(116, 52, 7);
+}
+
+.third_containt .coffee {
+    background-color: rgb(116, 52, 7);
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.coffe_Image img {
+    width: 32%;
+    margin-right: 2%;
+}
+
+.coffe_Image {
+    display: flex;
+}
+
+.coffee_containt {
+    display: flex;
+}
+
+.coffee_containt p {
+    width: 32%;
+    margin-right: 3%;
+    font-size: 25px;
+    color: rgb(116, 52, 7);
+}
+
+.coffee_containt a {
+    text-decoration: none;
+    color: rgb(116, 52, 7);
+}
+
+.coffee_containt button {
+    width: 15%;
+    margin-right: 20%;
+    color: white;
+    padding: 10px;
+    background-color: rgb(116, 52, 7);
+    border-radius: 10px;
+}
+
+.Accessories {
+    background-color: rgb(116, 52, 7);
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.address {
+    background-color: rgb(116, 52, 7);
+}
+
+.address p {
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}

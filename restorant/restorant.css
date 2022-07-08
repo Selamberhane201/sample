@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url("./RestorantImage/Pizza.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: rgb(150, 147, 147, 0.5);
+    color: black;
+}
+
+nav {
+    background-color: rgb(19, 19, 19, 0.8);
+    padding: 10px;
+    overflow: auto;
+    position: sticky;
+}
+
+@media screen and (max-width:500px) {
+    a {
+        display: block;
+    }
+}
+
+.title-menu {
+    height: 150px;
+    line-height: 100px;
+    margin: 200px auto auto auto;
+    text-align: center;
+}
+
+.title-menu a {
+    background-color: black;
+}
+
+.title {
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #fffcfc;
+}
+
+#footer {
+    background-color: rgb(19, 19, 19, 0.8);
+    padding: 20px;
+    overflow: auto;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
